@@ -1,0 +1,8 @@
+.success-page { min-height: 70vh; display: flex; align-items: center; justify-content: center; padding: 40px 20px; }
+.success-card { text-align: center; background: #fff; border-radius: var(--radius-lg); padding: 56px 40px; box-shadow: var(--shadow-lg); max-width: 480px; width: 100%; }
+.success-icon { font-size: 80px; margin-bottom: 20px; animation: bounce 0.6s ease; }
+@keyframes bounce { 0%,100%{transform:scale(1)} 50%{transform:scale(1.2)} }
+.success-card h1 { font-size: 26px; font-weight: 800; color: var(--secondary); margin-bottom: 12px; }
+.success-card p { color: var(--text-muted); margin-bottom: 24px; }
+.order-id-box { background: var(--bg); border-radius: var(--radius); padding: 12px 20px; margin-bottom: 28px; font-size: 15px; }
+.success-actions { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; }
