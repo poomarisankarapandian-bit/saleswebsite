@@ -20,7 +20,7 @@ const __dirname = path.dirname(__filename)
 
 // Middleware
 app.use(cors({
-  origin: 'http://localhost:3000',
+  origin: ['http://localhost:3000', 'https://saleswebsitesales.netlify.app'],
   credentials: true
 }))
 app.use(express.json())
